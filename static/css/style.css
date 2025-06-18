@@ -1,0 +1,48 @@
+.gradient-text {
+    font-size: 64px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.2;
+    background: linear-gradient(180deg, #e6d5ff, #a749ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Arial, sans-serif;
+  }
+
+  .logo {
+    font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+    font-size: 44px;
+    color: #fff;
+    font-weight: 500;
+  }
+
+  .dot {
+    color: #8e2de2; /* Purple dot color */
+  }
+
+
+
+
+  .image-wrapper_pari {
+    position: relative;
+    width: 400px;
+    height: 400px;
+  }
+
+  .circle-bg_pari {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, #ffe600 0%, #ffde59 100%);
+    border-radius: 50%;
+    z-index: 0;
+  }
+
+  .pankaj-img_pari {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: 1;
+  }
